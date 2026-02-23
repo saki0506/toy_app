@@ -1,24 +1,23 @@
-# README
+# Toy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails チュートリアル第2章で作成した練習用アプリケーションです。
 
-Things you may want to cover:
+## デモ
 
-* Ruby version
+https://toy-app-hwzs.onrender.com
 
-* System dependencies
+## 機能
 
-* Configuration
+- ユーザーの CRUD（作成・表示・更新・削除）
+- マイクロポストの CRUD
+- ユーザーとマイクロポストの関連付け（1対多）
+- バリデーション（名前・メールの必須、投稿の140文字制限）
 
-* Database creation
+## 技術スタック
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby 3.1.4
+- Rails 7.1.6
+- SQLite3（開発・テスト）
+- PostgreSQL（本番）
+- Puma（Web サーバー）
+- Render（ホスティング）
